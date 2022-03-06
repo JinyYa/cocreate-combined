@@ -2,11 +2,11 @@
   "repository": "#",
   "license": "UNLICENSED",
   "homepage": "https://jinyya.github.io/cocreate-combined/",
-  
   "scripts": {
     "build": "webpack --config ./bundler/webpack.prod.js",
-    "dev": "webpack serve --config ./bundler/webpack.dev.js"
-    },
+    "dev": "webpack serve --config ./bundler/webpack.dev.js",
+    "deploy": "gh-pages -d dist"
+  },
   "dependencies": {
     "@babel/core": "^7.13.1",
     "@babel/preset-env": "^7.13.5",
